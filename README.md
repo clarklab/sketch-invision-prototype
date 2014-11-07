@@ -197,12 +197,17 @@ On top of InVision always displaying the most recent version of the screen, it h
 
 Running a meeting or presentation to demo your new design? InVision has a built-in "Liveshare" mode where meeting participants can join into a shared sandbox to explore the design. Not only is there voice chat and comment log, viewers will instantly see any design changes you make live, as you sync them.
 
-Clark Wimberly
-User-centric design + dev
-[clarklab.com](http://clarklab.com)
-[TheZebra.com](http://thezebra.com)
+# Files
+
+- [InVision Project](http://invis.io/9X1NO1OR5)
+- [Sketch File](tracker-keeper-sample.sketch)
+
+# Credit
+
+- Clark Wimberly
+- User-centric design + dev
+- [clarklab.com](http://clarklab.com)
+- [TheZebra.com](http://thezebra.com)
 
 ![](myface.jpg)
 
-[InVision Project](http://invis.io/9X1NO1OR5)
-[Sketch File](tracker-keeper-sample.sketch)
