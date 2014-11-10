@@ -2,6 +2,8 @@
 
 Websites (and apps) ain't what they used to be. Our builds have grown from static pages and views into complex, moving systems. To keep pace, our mockups need to evolve as well.
 
+![](finished.png)
+
 ## Introduction
 
 Gone are the days of delivering a single PSD and calling it a day. Modern designers are expected to deliver **systems**, usually a complex series of design elements, styles, and interactions.
@@ -12,9 +14,9 @@ The solution, simply, is to up your game. With a little wrangling, our mockups c
 
 My favorite two tools for building living prototypes are Sketch and InVision. Sketch, the Mac graphic design application that's taking the world by storm, and InVision, the browser-based design collaboration platform, are a match made in heaven.
 
-We use both full-time at The Zebra, an insurance startup where my team of designers, developers, and product people use countless prototypes to envision new features, new pages, even whole redesigns.
+We use both full-time at [The Zebra](http://thezebra.com), an insurance startup where my team of designers, developers, and product people use countless prototypes to envision new features, new pages, even whole redesigns.
 
-For this lesson, we're going to build an imaginary status tracker, a tool for folks in our office to log recognitions or words of praise for each other (sort of like an internal, super-positive Twitter). We'll build a home view with generic social timeline, along with a menu that opens and closes.
+For this lesson, we're going to build an imaginary status tracker, a tool for folks in our office to log recognitions or words of praise for each other (sort of like an internal, super-positive Twitter). We'll build a home view with a generic social timeline, along with a menu that opens and closes.
 
 Let's do this!
 
@@ -25,7 +27,7 @@ Let's do this!
 
 Create a new .sketch document. Inside, we're going to make two artboards, one for the normal home view, and one for the open menu view. Press "A" to bring up the Artboard tool, which has some popular screen resolutions built-in. Select "iPhone Portrait".
 
-Click anywhere in your canvas to create a new artboard. Rename it to "home". This artboard will be the "home view" of your app. Press CMD+D to duplicate the artboard, and change the newly created screen's name to "home-menu-open".
+Click anywhere in your canvas to create a new artboard. Rename it to "home", either with (CMD+R) or (Right Click > Rename). This artboard will be the "home view" of your app. Press CMD+D to duplicate the artboard, and change the newly created screen's name to "home-menu-open".
 
 ### Step 2
 
@@ -49,7 +51,7 @@ While we're at it, let's select our artboards and set a background color, white.
 
 To create the rest of the header, let's add a menu icon, and app title, and an action button.
 
-I'm making my hamburger icon from scratch, simple drawing out three rectangles. I'll also group them for easy positioning (slightly off the left edge).
+I'm making my hamburger icon from scratch, simply drawing out three rectangles. I'll also group them for easy positioning (slightly off the left edge).
 
 Press "T" to enter some text, and key in the title of your app. I'm building an internal activity tracker, so I'm going with "Tracker Keeper". The font size/color/spacing is located in The Inspector panel on the right.
 
@@ -63,13 +65,13 @@ Once our header is done, we're going to convert it into a Symbol, which means we
 
 Let's group all the objects we just created, and turn them into a symbol. Select the rectangle, icons, and text we just created and press (CMD+G). We'll want to rename this group to something sensical, so let's press (CMD+R) and rename to "header".
 
-In the Layers List, right click on your "header" group and pick "Create Symbol". A Symbol is denoted in the Layers List by a purple-colored folder. Keep a keen eye on all purple folder, as changing one will result in all others being updated. With great power comes great responsibility. 
+In the Layers List, right click on your "header" group and pick "Create Symbol". A Symbol is denoted in the Layers List by a purple-colored folder. Keep a keen eye on all purple folders, as changing one will result in all others being updated. With great power comes great responsibility. 
 
 ### Step 6
 
 ![](step-6.png)
 
-Still on tthe "home" artboard, we can start to build our activity timeline. This example app will collect and display recognitions/congratulations from one team member to another.
+Still on the "home" artboard, we can start to build our activity timeline. This example app will collect and display recognitions/congratulations from one team member to another.
 
 Let's make a single comment. I'll make a circle using the Oval tool, and place an icon inside using Symbolset (one of my favorite font tools). I'll also add some text and a timestamp.
 
@@ -79,7 +81,7 @@ Let's make a single comment. I'll make a circle using the Oval tool, and place a
 
 Like we did with the header, let's round up the elements we just created and turn them into a group (CMD+G). Rename the group to "comment", then turn it into a symbol.
 
-With the "comment" symbol selected, choose Arrange > Make Grid. We're going to make a grid with 5 rows (spaced 40px) and 1 column (which will give us a single stack of comments, ala Twitter).
+With the "comment" symbol selected, choose (Arrange > Make Grid). We're going to make a grid with 5 rows (spaced 40px) and 1 column (which will give us a single stack of comments, ala Twitter).
 
 ### Step 8
 
@@ -93,7 +95,7 @@ Go down the line and change each comment to something inspirational and more bec
 
 ![](step-9.png)
 
-With your basic home screen complete, we're going to copy the entire screen into your other artboard, "home-menu-open". Simply just select all our current elements (CMD+A or click and drag to select) and then duplicate (CMD+D). Drag your new layers into the "home-menu-open" artboard.
+With your basic home screen complete, we're going to copy the entire screen into your other artboard, "home-menu-open". Simply just select all our current elements and then duplicate (CMD+D). Drag your new layers into the "home-menu-open" artboard.
 
 Since everything we just duplicated is a symbol, any changes you make on the "home" artboard will be immediately reflected on the "home-menu-open" artboard (and vice versa).
 
@@ -135,9 +137,9 @@ Save the PNGs inside your InVision folder, where you'll find a newly created "Tr
 
 Once InVision has the screens uploaded, head back into the web interface and open the project. While viewing the main screen, we're going to enter "Build Mode", either with the icon in the bottom center of the screen or by pressing "B".
 
-With Build Mode active, we're going to click and drag and blue highlight around our menu button. This hotspot is the key to creating a living mockup out of flat PNGs. Essentially, we're making a fancy image map, with actions tied to each hotspot we build.
+With Build Mode active, we're going to click and drag to draw a hotspot with blue highlight around our menu button. This hotspot is the key to creating a living mockup out of flat PNGs. Essentially, we're making a fancy image map, with actions tied to each hotspot we build.
 
-We're going to link our new hotspot our a "home-menu-open" screen. Since our menu is designed like an off-canvas tray, let's select a "Push Right" animation.
+We're going to link our new hotspot to our "home-menu-open" screen. Since our menu is designed like an off-canvas tray, let's select a "Push Right" animation.
 
 ### Step 15
 
@@ -151,7 +153,7 @@ Now viewing the "menu-home-open" screen, let's make another hotspot that lets pe
 
 ![](step-16.png)
 
-Now would be a good time to check this out on your actual device. Either click "Share" and grab yourself the link, or use the SMS service to send a link right to your phone.
+Now would be a good time to check this out on your actual device. Either click "Share" and grab the link yourself, or use the SMS service to send a link right to your phone.
 
 Once you open the link, make sure to "Add to Home Screen" to get the full effect (InVision lets you set an icon, startup image, etc).
 
@@ -167,7 +169,7 @@ Of course, when you edit the header symbol in one place, it automatically update
 
 ![](step-18.png)
 
-Select your artboards again, and let's export. Save them to the same folder as before, replacing the old files, and InVision will do the rest. You're updated look with purple header will automatically show up in all InVision mockups, even those being viewed on a mobile device (or live in browser).
+Select your artboards again, and let's export. Save them to the same folder as before, replacing the old files, and InVision will do the rest. Your updated look with purple header will automatically show up in all InVision mockups, even those being viewed on a mobile device (or live in browser).
 
 ### Step 19
 
